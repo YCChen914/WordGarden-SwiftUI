@@ -48,7 +48,7 @@ struct ContentView: View {
                         }
                     Button("Guess a Letter"){
                         //TODO: Guess a Letter Buttun action here
-                        playAgainHidden = false
+                        
                     }
                     .buttonStyle(.bordered)
                     .tint(.mint)
@@ -57,7 +57,7 @@ struct ContentView: View {
             else{
                 Button("Another Word?"){
                     //TODO: Another Word Button action here
-                    playAgainHidden = true
+                    
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.mint)
